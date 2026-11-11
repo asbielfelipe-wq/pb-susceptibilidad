@@ -1,220 +1,220 @@
-gene	cromosoma	justificacion
-ACTB	7	Citoesqueleto de actina
-CANX	5	Chaperona de reticulo endoplasmico
-CLTC	17	Clatrina, trafico vesicular
-VCP	9	AAA-ATPasa, degradacion proteica
-PSMB4	1	Subunidad del proteasoma
-DNAJA1	9	Co-chaperona HSP40
-RPL13A	19	Proteina ribosomal
-SDHA	5	Complejo II mitocondrial
-TBP	6	Factor de transcripcion basal; 6q27, lejos de HLA
-YWHAZ	8	Proteina 14-3-3
-PPIA	7	Peptidil-prolil isomerasa
-RPLP0	12	Proteina ribosomal
-ATP5F1B	12	ATP sintasa mitocondrial
-CCT2	12	Chaperonina
-HSPA8	11	Chaperona HSP70 constitutiva
-RAB7A	3	GTPasa endosomal
-SEC61A1	3	Translocon de reticulo endoplasmico
-COPB1	11	Coatomero Golgi
-RPL7A	9	Proteina ribosomal
-RPS6	9	Proteina ribosomal
-EEF2	19	Factor de elongacion traduccional
-EIF4A2	3	Factor de iniciacion
-NACA	12	Complejo asociado a cadena naciente
-PFN1	17	Profilina
-CFL1	11	Cofilina
-TPM3	1	Tropomiosina
-MYL6	12	Cadena ligera de miosina
-ARPC3	12	Complejo Arp2/3
-CAPZB	1	Capping de actina
-TLN1	9	Talina
-VIM	10	Vimentina
-TUBA1B	12	Tubulina alfa
-KPNB1	17	Importina beta
-RAN	12	GTPasa de transporte nuclear
-XPO1	2	Exportina 1
-NUP93	16	Nucleoporina
-SRP14	15	Particula de reconocimiento de senal
-SEC23A	14	Cubierta COPII
-SEC31A	4	Cubierta COPII
-ARF1	1	GTPasa vesicular
-ARF4	3	GTPasa vesicular
-RAB1A	2	GTPasa RE-Golgi
-RAB5C	17	GTPasa endosomal
-VPS35	16	Retromero
-SNX3	6	Nexina; 6q21, lejos de HLA
+gene	chromosome	functional_justification
+ACTB	7	Actin cytoskeleton
+CANX	5	Endoplasmic reticulum chaperone
+CLTC	17	Clathrin, vesicular trafficking
+VCP	9	AAA-ATPase, protein degradation
+PSMB4	1	Proteasome subunit
+DNAJA1	9	HSP40 co-chaperone
+RPL13A	19	Ribosomal protein
+SDHA	5	Mitochondrial complex II
+TBP	6	Basal transcription factor; 6q27, far from HLA
+YWHAZ	8	14-3-3 protein
+PPIA	7	Peptidyl-prolyl isomerase
+RPLP0	12	Ribosomal protein
+ATP5F1B	12	Mitochondrial ATP synthase
+CCT2	12	Chaperonin
+HSPA8	11	Constitutive HSP70 chaperone
+RAB7A	3	Endosomal GTPase
+SEC61A1	3	Endoplasmic reticulum translocon
+COPB1	11	Golgi coatomer
+RPL7A	9	Ribosomal protein
+RPS6	9	Ribosomal protein
+EEF2	19	Translational elongation factor
+EIF4A2	3	Initiation factor
+NACA	12	Nascent polypeptide-associated complex
+PFN1	17	Profilin
+CFL1	11	Cofilin
+TPM3	1	Tropomyosin
+MYL6	12	Myosin light chain
+ARPC3	12	Arp2/3 complex
+CAPZB	1	Actin capping
+TLN1	9	Talin
+VIM	10	Vimentin
+TUBA1B	12	Alpha tubulin
+KPNB1	17	Importin beta
+RAN	12	Nuclear transport GTPase
+XPO1	2	Exportin 1
+NUP93	16	Nucleoporin
+SRP14	15	Signal recognition particle
+SEC23A	14	COPII coat
+SEC31A	4	COPII coat
+ARF1	1	Vesicular GTPase
+ARF4	3	Vesicular GTPase
+RAB1A	2	ER-Golgi GTPase
+RAB5C	17	Endosomal GTPase
+VPS35	16	Retromer
+SNX3	6	Nexin; 6q21, far from HLA
 CHMP4B	20	ESCRT-III
 TSG101	11	ESCRT-I
-PSMA1	11	Subunidad del proteasoma
-PSMD1	2	Subunidad reguladora del proteasoma
-PSMC5	17	ATPasa del proteasoma
-UBE2D3	4	Enzima conjugadora de ubiquitina
-CUL1	7	Culina
-SKP1	5	Complejo SCF
-ANAPC5	12	Complejo promotor de anafase
-CDC37	19	Co-chaperona de cinasas
-HSPA5	9	Chaperona BiP
-PDIA3	15	Isomerasa de disulfuros
-P4HB	17	Prolil-4-hidroxilasa beta
-CALR	19	Calreticulina
-DNAJB11	3	Co-chaperona de RE
-SEC62	3	Translocacion a RE
-TMED2	12	Receptor de carga vesicular
-COPA	1	Coatomero alfa
-ARCN1	11	Coatomero delta
-NAPA	19	Factor de fusion de membranas
+PSMA1	11	Proteasome subunit
+PSMD1	2	Proteasome regulatory subunit
+PSMC5	17	Proteasome ATPase
+UBE2D3	4	Ubiquitin-conjugating enzyme
+CUL1	7	Cullin
+SKP1	5	SCF complex
+ANAPC5	12	Anaphase-promoting complex
+CDC37	19	Kinase co-chaperone
+HSPA5	9	BiP chaperone
+PDIA3	15	Disulfide isomerase
+P4HB	17	Prolyl 4-hydroxylase beta
+CALR	19	Calreticulin
+DNAJB11	3	ER co-chaperone
+SEC62	3	ER translocation
+TMED2	12	Vesicular cargo receptor
+COPA	1	Alpha coatomer
+ARCN1	11	Delta coatomer
+NAPA	19	Membrane fusion factor
 YKT6	7	SNARE
-GOSR2	17	SNARE de Golgi
-RAB11A	15	GTPasa de reciclaje
-VPS4A	16	ATPasa ESCRT
-ATP6V1A	3	ATPasa vacuolar V1
-NDUFS1	2	Complejo I mitocondrial
-UQCRC1	3	Complejo III mitocondrial
-COX5A	15	Complejo IV mitocondrial
-ATP5F1A	18	ATP sintasa mitocondrial
-RPL3	22	Proteina ribosomal
-RPL4	15	Proteina ribosomal
-RPL5	1	Proteina ribosomal
-RPL6	12	Proteina ribosomal
-RPL8	8	Proteina ribosomal
-RPL10A	6	Proteina ribosomal; 6p21.31
-RPL11	1	Proteina ribosomal
-RPL15	3	Proteina ribosomal
-RPL18	19	Proteina ribosomal
-RPL23A	17	Proteina ribosomal
-RPL27	17	Proteina ribosomal
-RPL30	8	Proteina ribosomal
-RPL35	9	Proteina ribosomal
-RPS3	11	Proteina ribosomal
-RPS5	19	Proteina ribosomal
-RPS8	1	Proteina ribosomal
-RPS11	19	Proteina ribosomal
-RPS13	11	Proteina ribosomal
-RPS15A	16	Proteina ribosomal
-RPS18	6	Proteina ribosomal
-RPS19	19	Proteina ribosomal
-RPS24	10	Proteina ribosomal
-RPS27A	2	Proteina ribosomal
-EIF3A	10	Factor de iniciacion traduccional
-EIF3B	7	Factor de iniciacion
-EIF3E	8	Factor de iniciacion
-EIF4G1	3	Factor de iniciacion
-EIF5A	17	Factor de iniciacion
-EEF1B2	2	Factor de elongacion
-EEF1G	11	Factor de elongacion
-PABPC1	8	Proteina de union a poli(A)
-HNRNPA1	12	Ribonucleoproteina nuclear
-HNRNPC	14	Ribonucleoproteina nuclear
-HNRNPK	9	Ribonucleoproteina nuclear
-SRSF1	17	Factor de corte y empalme
-SF3B1	2	Complejo de empalme
-SNRPD1	18	Proteina Sm del espliceosoma
-DDX5	17	Helicasa de ARN
-DDX6	11	Helicasa de ARN
-CCT3	1	Chaperonina
-CCT5	5	Chaperonina
-CCT7	2	Chaperonina
-HSP90AA1	14	Chaperona HSP90
-HSPA9	5	Chaperona mitocondrial
-HSPD1	2	Chaperonina mitocondrial
-DNAJB1	19	Co-chaperona HSP40
-STIP1	11	Proteina organizadora de HSP70-HSP90
-BAG1	9	Regulador de chaperonas
-PSMA3	14	Subunidad del proteasoma
-PSMA5	1	Subunidad del proteasoma
-PSMB1	6	Subunidad del proteasoma; 6q27
-PSMB2	1	Subunidad del proteasoma
-PSMD11	17	Subunidad reguladora del proteasoma
-PSMD14	2	Subunidad reguladora
-PSMC1	14	ATPasa del proteasoma
-UBA52	19	Ubiquitina-proteina ribosomal
-UBE2L3	22	Enzima conjugadora de ubiquitina
-UBE2N	12	Enzima conjugadora
-NEDD8	14	Modificador tipo ubiquitina
-SUMO2	17	Modificador SUMO
-RBX1	22	Ligasa de ubiquitina
-CUL3	2	Culina
-SKP2	5	Complejo SCF
-ACTR2	2	Complejo Arp2/3
-ACTR3	2	Complejo Arp2/3
-ARPC2	2	Complejo Arp2/3
-CAPZA1	1	Capping de actina
-TUBB4B	9	Tubulina beta
-TUBA1A	12	Tubulina alfa
-DYNC1H1	14	Cadena pesada de dineina
-KIF5B	10	Cinesina
-MYH10	17	Miosina no muscular
-GSN	9	Gelsolina
-ANXA6	5	Anexina
-LMNB1	5	Lamina nuclear
-NUP214	9	Nucleoporina
-NUP205	7	Nucleoporina
-KPNA2	17	Importina alfa
-TNPO1	5	Transportina
-RANBP2	2	Proteina de union a RAN
-XPO7	8	Exportina
-SEC13	3	Cubierta COPII
-SEC24C	10	Cubierta COPII
-COPB2	3	Coatomero beta
-COPG2	7	Coatomero gamma
-ARF3	12	GTPasa vesicular
-ARFGEF1	8	Factor de intercambio de ARF
-RAB5A	3	GTPasa endosomal
-RAB6A	11	GTPasa de Golgi
-RAB8A	19	GTPasa de trafico
-RAB10	2	GTPasa de trafico
-RAB14	9	GTPasa de trafico
-VPS26A	10	Retromero
-VPS29	12	Retromero
-SNX1	15	Nexina de clasificacion
+GOSR2	17	Golgi SNARE
+RAB11A	15	Recycling GTPase
+VPS4A	16	ESCRT ATPase
+ATP6V1A	3	V1 vacuolar ATPase
+NDUFS1	2	Mitochondrial complex I
+UQCRC1	3	Mitochondrial complex III
+COX5A	15	Mitochondrial complex IV
+ATP5F1A	18	Mitochondrial ATP synthase
+RPL3	22	Ribosomal protein
+RPL4	15	Ribosomal protein
+RPL5	1	Ribosomal protein
+RPL6	12	Ribosomal protein
+RPL8	8	Ribosomal protein
+RPL10A	6	Ribosomal protein; 6p21.31
+RPL11	1	Ribosomal protein
+RPL15	3	Ribosomal protein
+RPL18	19	Ribosomal protein
+RPL23A	17	Ribosomal protein
+RPL27	17	Ribosomal protein
+RPL30	8	Ribosomal protein
+RPL35	9	Ribosomal protein
+RPS3	11	Ribosomal protein
+RPS5	19	Ribosomal protein
+RPS8	1	Ribosomal protein
+RPS11	19	Ribosomal protein
+RPS13	11	Ribosomal protein
+RPS15A	16	Ribosomal protein
+RPS18	6	Ribosomal protein
+RPS19	19	Ribosomal protein
+RPS24	10	Ribosomal protein
+RPS27A	2	Ribosomal protein
+EIF3A	10	Translational initiation factor
+EIF3B	7	Initiation factor
+EIF3E	8	Initiation factor
+EIF4G1	3	Initiation factor
+EIF5A	17	Initiation factor
+EEF1B2	2	Elongation factor
+EEF1G	11	Elongation factor
+PABPC1	8	Poly(A)-binding protein
+HNRNPA1	12	Nuclear ribonucleoprotein
+HNRNPC	14	Nuclear ribonucleoprotein
+HNRNPK	9	Nuclear ribonucleoprotein
+SRSF1	17	Splicing factor
+SF3B1	2	Splicing complex
+SNRPD1	18	Spliceosomal Sm protein
+DDX5	17	RNA helicase
+DDX6	11	RNA helicase
+CCT3	1	Chaperonin
+CCT5	5	Chaperonin
+CCT7	2	Chaperonin
+HSP90AA1	14	HSP90 chaperone
+HSPA9	5	Mitochondrial chaperone
+HSPD1	2	Mitochondrial chaperonin
+DNAJB1	19	HSP40 co-chaperone
+STIP1	11	HSP70-HSP90 organizing protein
+BAG1	9	Chaperone regulator
+PSMA3	14	Proteasome subunit
+PSMA5	1	Proteasome subunit
+PSMB1	6	Proteasome subunit; 6q27
+PSMB2	1	Proteasome subunit
+PSMD11	17	Proteasome regulatory subunit
+PSMD14	2	Regulatory subunit
+PSMC1	14	Proteasome ATPase
+UBA52	19	Ubiquitin-ribosomal protein
+UBE2L3	22	Ubiquitin-conjugating enzyme
+UBE2N	12	Conjugating enzyme
+NEDD8	14	Ubiquitin-like modifier
+SUMO2	17	SUMO modifier
+RBX1	22	Ubiquitin ligase
+CUL3	2	Cullin
+SKP2	5	SCF complex
+ACTR2	2	Arp2/3 complex
+ACTR3	2	Arp2/3 complex
+ARPC2	2	Arp2/3 complex
+CAPZA1	1	Actin capping
+TUBB4B	9	Beta tubulin
+TUBA1A	12	Alpha tubulin
+DYNC1H1	14	Dynein heavy chain
+KIF5B	10	Kinesin
+MYH10	17	Non-muscle myosin
+GSN	9	Gelsolin
+ANXA6	5	Annexin
+LMNB1	5	Nuclear lamin
+NUP214	9	Nucleoporin
+NUP205	7	Nucleoporin
+KPNA2	17	Importin alpha
+TNPO1	5	Transportin
+RANBP2	2	RAN-binding protein
+XPO7	8	Exportin
+SEC13	3	COPII coat
+SEC24C	10	COPII coat
+COPB2	3	Beta coatomer
+COPG2	7	Gamma coatomer
+ARF3	12	Vesicular GTPase
+ARFGEF1	8	ARF exchange factor
+RAB5A	3	Endosomal GTPase
+RAB6A	11	Golgi GTPase
+RAB8A	19	Trafficking GTPase
+RAB10	2	Trafficking GTPase
+RAB14	9	Trafficking GTPase
+VPS26A	10	Retromer
+VPS29	12	Retromer
+SNX1	15	Sorting nexin
 CHMP2B	3	ESCRT-III
-VPS4B	18	ATPasa ESCRT
+VPS4B	18	ESCRT ATPase
 STX4	16	SNARE
 STX7	6	SNARE; 6q23
 VAMP3	1	SNARE
-NSF	17	Factor sensible a N-etilmaleimida
+NSF	17	N-ethylmaleimide-sensitive factor
 SNAP23	15	SNARE
-ATP6V1B2	8	ATPasa vacuolar V1
-ATP6V0D1	16	ATPasa vacuolar V0
-NDUFA9	12	Complejo I mitocondrial
-NDUFB8	10	Complejo I mitocondrial
-NDUFV1	11	Complejo I mitocondrial
-SDHB	1	Complejo II mitocondrial
-UQCRC2	16	Complejo III mitocondrial
-COX4I1	16	Complejo IV mitocondrial
-COX6C	8	Complejo IV mitocondrial
-ATP5F1C	10	ATP sintasa mitocondrial
-ATP5PB	1	ATP sintasa mitocondrial
-VDAC1	5	Canal anionico mitocondrial
-TOMM20	1	Translocasa mitocondrial
-TIMM23	10	Translocasa mitocondrial
-MDH2	7	Malato deshidrogenasa
-CS	12	Citrato sintasa
-ACO2	22	Aconitasa mitocondrial
-IDH3A	15	Isocitrato deshidrogenasa
-OGDH	7	Oxoglutarato deshidrogenasa
-ENO1	1	Enolasa
-PKM	15	Piruvato cinasa
-TPI1	12	Triosafosfato isomerasa
-ALDOA	16	Aldolasa
-GPI	19	Glucosa-6-fosfato isomerasa
-PSAP	10	Prosaposina
-CTSD	11	Catepsina D
-LAMP1	13	Proteina de membrana lisosomal
-GNB1	1	Subunidad beta de proteina G
-GNB2	7	Subunidad beta de proteina G
-RACK1	5	Proteina de andamiaje
-YWHAB	20	Proteina 14-3-3
-YWHAE	17	Proteina 14-3-3
-CSNK2A1	20	Caseina cinasa 2
-PPP1CA	11	Fosfatasa 1
-PPP2CA	5	Fosfatasa 2A
-CALU	7	Calumenina
-RPN1	3	Oligosacariltransferasa
-DDOST	1	Oligosacariltransferasa
-SRPRB	3	Receptor de SRP
-TMED10	14	Receptor de carga vesicular
-GOLGA2	9	Golgina
-GOLPH3	5	Proteina de Golgi
-TGOLN2	2	Proteina de red trans-Golgi
+ATP6V1B2	8	V1 vacuolar ATPase
+ATP6V0D1	16	V0 vacuolar ATPase
+NDUFA9	12	Mitochondrial complex I
+NDUFB8	10	Mitochondrial complex I
+NDUFV1	11	Mitochondrial complex I
+SDHB	1	Mitochondrial complex II
+UQCRC2	16	Mitochondrial complex III
+COX4I1	16	Mitochondrial complex IV
+COX6C	8	Mitochondrial complex IV
+ATP5F1C	10	Mitochondrial ATP synthase
+ATP5PB	1	Mitochondrial ATP synthase
+VDAC1	5	Mitochondrial anion channel
+TOMM20	1	Mitochondrial translocase
+TIMM23	10	Mitochondrial translocase
+MDH2	7	Malate dehydrogenase
+CS	12	Citrate synthase
+ACO2	22	Mitochondrial aconitase
+IDH3A	15	Isocitrate dehydrogenase
+OGDH	7	Oxoglutarate dehydrogenase
+ENO1	1	Enolase
+PKM	15	Pyruvate kinase
+TPI1	12	Triosephosphate isomerase
+ALDOA	16	Aldolase
+GPI	19	Glucose-6-phosphate isomerase
+PSAP	10	Prosaposin
+CTSD	11	Cathepsin D
+LAMP1	13	Lysosomal membrane protein
+GNB1	1	G protein beta subunit
+GNB2	7	G protein beta subunit
+RACK1	5	Scaffold protein
+YWHAB	20	14-3-3 protein
+YWHAE	17	14-3-3 protein
+CSNK2A1	20	Casein kinase 2
+PPP1CA	11	Phosphatase 1
+PPP2CA	5	Phosphatase 2A
+CALU	7	Calumenin
+RPN1	3	Oligosaccharyltransferase
+DDOST	1	Oligosaccharyltransferase
+SRPRB	3	SRP receptor
+TMED10	14	Vesicular cargo receptor
+GOLGA2	9	Golgin
+GOLPH3	5	Golgi protein
+TGOLN2	2	Trans-Golgi network protein
