@@ -1,0 +1,139 @@
+MANIFIESTO DE CODIGO Y DEPENDENCIAS
+Frecuencias alelicas por componente de ancestria de las variantes candidatas
+de susceptibilidad al plomo en el Mexico City Prospective Study
+
+
+ENTORNO
+
+Python 3.11 o superior. Dependencias directas:
+
+  numpy      >= 1.24
+  pandas     >= 2.0
+  scipy      >= 1.10
+  requests   >= 2.28     (solo scripts 03, 03b, 03c, 13, 13b: API de gnomAD)
+  matplotlib >= 3.7      (solo script 14: figuras)
+  python-docx >= 1.1     (solo armar_docx.py)
+
+Herramientas externas:
+
+  htslib / tabix  >= 1.17   (script 09: extraccion de las regiones de los VCF
+                             de MCPS)
+  pandoc          >= 3.0    (armar_docx.py: markdown a Word)
+
+Instalacion:
+  pip install "numpy>=1.24" "pandas>=2.0" "scipy>=1.10" requests \
+      "matplotlib>=3.7" "python-docx>=1.1"
+
+
+ORDEN DE EJECUCION
+
+El canal completo va de los archivos crudos a las tablas del manuscrito. Cada
+script declara sus entradas y salidas en su docstring.
+
+  01_descarga_ctd.sh          descarga CTD y registra fecha y SHA-256
+  02_filtrar_ctd.py           filtro por organismo y evidencia
+  03_gnomad_frecuencias.py    frecuencias y coordenadas por gen (API)
+  03b_rescate_regiones.py     rescate de genes no resueltos por simbolo
+  03c_rescate_ventanas.py     rescate por ventana de coordenadas
+  04_consolidar_y_comparar.py consolidacion de frecuencias
+  05_fondo_y_percentiles.py   primera version del fondo empirico
+  05b_diagnostico_bins.py     diagnostico de los bins de frecuencia
+  06_fondo_control.py         fondo a partir de genes control
+  07_comparar_fondos.py       comparacion entre fondos
+  08_regiones_bed.py          regiones candidatas y control -> regiones.bed
+  09_extraer_mcps.sh          extrae las 228 regiones de los VCF por cromosoma
+                              (reanudable). Los VCF se descargan a mano del
+                              sitio de MCPS, sin script intermedio; la ruta y
+                              la version se declaran mas abajo
+  10_parsear_mcps.py          -> data/processed/mcps_frecuencias.tsv
+  11_analisis_mcps.py         analisis dirigido, primera version
+  12_barrido.py               barrido de regiones
+  12b_bloques_comparados.py   tasas de bloques por megabase
+  12c_prueba_exceso.py        prueba binomial de exceso
+  13_resolver_rsids.py        resolucion de rsID a posiciones
+  13b_rescate_rsids.py        rescate de rsID no resueltos
+  14_figuras.py               figuras 1 a 3
+  15_auditoria.py             auditoria del filtro de frecuencia
+  16_percentiles_v2.py        apareamiento acotado y remuestreo por bloques
+  17_orientacion_alelos.py    base de la Tabla 1
+  18_sensibilidades.py        sensibilidades, definicion antigua
+  19_analisis_principal.py    ANALISIS PRINCIPAL -> principal_percentiles.tsv
+  20_sensibilidades_v2.py     sensibilidades bajo el esquema principal
+  21_suplementario.py         ensambla el material suplementario
+  22b_completar_suplementario.py conteos AC y AN en S1, frecuencias
+                              recalculadas desde AC/AN, escenarios de S2
+  23c_tabla1_orientacion.py   version completa de la Tabla 1, con la fuente
+                              de cada campo y las frecuencias tomadas de S1
+  24b_sensibilidad_simetrica.py  criterio simetrico y extension de bloques por
+                              estrato; importa 12_barrido.py, comprueba que lo
+                              reproduce y que sus dos tablas dan el mismo
+                              numero de bloques antes de escribir
+  25c_tabla1_cuerpo.py        version de diez columnas de la Tabla 1, la que
+                              va en el cuerpo del articulo
+  26_nula_apareada.py         distribucion nula de bloques en regiones
+                              apareadas por longitud, densidad y plataforma;
+                              importa 24b, que a su vez importa el 12
+  27_simulacion_fst.py        simulacion del estimador de Hudson sobre conteos
+                              fraccionarios; no usa datos de MCPS
+  parche_14_figura3B.py       unica vez: hace que el panel 3B lea la rejilla
+                              corregida y dibuje los tres conjuntos
+  armar_docx.py               manuscrito.md -> Word
+
+Los scripts con sufijo b sustituyen a los que llevan el mismo numero sin
+sufijo. Los sin sufijo quedaron obsoletos y no deben correrse.
+
+Los resultados del manuscrito provienen de los scripts 19, 20, 22b, 23c, 24b
+y 25c. El orden importa: 22b antes que 23c y que 25c, porque ambos toman de S1
+las frecuencias recalculadas; 23c antes que 25c, porque este lee su salida; y
+24b despues de 12, porque comprueba su salida.
+Los scripts 05, 11, 16 y 18 corresponden a versiones anteriores del analisis y
+se conservan porque el manuscrito reporta sus resultados como alternativas
+declaradas, no porque formen parte del canal final.
+
+
+ENTRADAS QUE NO SE REDISTRIBUYEN
+
+  data/raw/mcps_vcf/              VCF por cromosoma del Mexico City Prospective
+                                  Study, version del 30 de enero de 2023,
+                                  descargados de
+                                  https://rgc-mcps.regeneron.com/downloads/20230130/
+                                  Son de acceso publico en ese sitio y no se
+                                  redistribuyen aqui.
+  data/raw/ctd/                   archivos planos de la Comparative
+                                  Toxicogenomics Database, https://ctdbase.org/
+  gnomAD v4.1                     consultado por su API GraphQL, conjunto
+                                  gnomad_r4, genoma de referencia GRCh38
+
+Las fechas de consulta y las sumas SHA-256 de cada descarga quedan registradas
+en data/raw/*/PROCEDENCIA.txt, que se incluye en el deposito.
+
+
+SEMILLAS
+
+  19_analisis_principal.py        20261006   remuestreo
+  20_sensibilidades_v2.py         20261006   remuestreo y subconjuntos
+  22b_completar_suplementario.py  20261006   remuestreo y subconjuntos
+  26_nula_apareada.py             20261110   muestreo de regiones apareadas
+  27_simulacion_fst.py            20261110   cohortes simuladas
+
+Los scripts 23c, 24b y 25c no usan numeros aleatorios.
+
+Con la misma semilla y las mismas entradas, las salidas son identicas.
+
+
+ARCHIVOS INTERMEDIOS NECESARIOS PARA REGENERAR LOS SUPLEMENTOS
+
+  data/processed/mcps_frecuencias.tsv   frecuencias, AC y AN por variante y
+                                        componente, con estrato y clase
+  results/principal_percentiles.tsv     salida del script 19
+  results/tabla_orientacion.tsv         salida del script 17, base de la
+                                        curaduria de la Tabla 1
+  results/barrido_todas.tsv             salida del script 12, que el 24
+                                        necesita para comprobarse
+  results/barrido_atipicos.tsv          salida del script 12
+  results/sens2_*.tsv                   salidas del script 20
+  results/exceso_pruebas.tsv            salida del script 12c
+  data/raw/regiones.bed                 salida del script 08
+  data/raw/genes_control_v2_219.tsv     conjunto control final
+  data/raw/genes_control_v1_74.tsv      conjunto control inicial, para la
+                                        sensibilidad por subconjuntos

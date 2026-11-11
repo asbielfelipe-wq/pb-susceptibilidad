@@ -1,0 +1,224 @@
+MATERIAL SUPLEMENTARIO
+Frecuencias alelicas por componente de ancestria de las variantes candidatas
+de susceptibilidad al plomo en el Mexico City Prospective Study
+
+Actualizado el 14 de octubre de 2026
+
+
+EN EL CUERPO DEL ARTICULO
+
+Tabla_1_cuerpo.tsv
+  La Tabla 1 tal como aparece en el articulo: diez columnas con el gen, el
+  rsID, la coordenada en GRCh38, los alelos de referencia y alterno, el nombre
+  con el que la literatura cita el locus, el alelo nombrado al que corresponde
+  el alelo alterno cuando la literatura nombra uno, la posicion del alelo
+  alterno frente al alelo menor del estudio de origen, el respaldo de esa
+  correspondencia y las frecuencias en los componentes indigena mexicano y
+  europeo. Las abreviaturas se declaran en la leyenda al pie de la tabla.
+
+
+SUPLEMENTARIO
+
+Tabla_1_orientacion_alelica.tsv
+  Version completa de la Tabla 1, con 24 columnas. Separa dos cosas que
+  conviene no confundir.
+
+  La primera es si el alelo alterno corresponde a un alelo que la literatura
+  nombra. Ocurre en nueve de los 24 loci, ocho de cambio de aminoacido y uno de
+  perdida del codon de inicio, donde la anotacion del transcrito identifica el
+  alelo sin ambiguedad. La columna transcrito_de_la_anotacion declara de donde
+  viene cada anotacion.
+
+  La segunda es si el alelo alterno corresponde al alelo cuyo efecto reporto el
+  estudio de origen. La columna certeza_de_la_orientacion la gradua en tres
+  niveles, porque no toda resolucion tiene el mismo respaldo. Confirmada en 19
+  loci: en 16 por un par de alelos que no coincide con su complemento, de modo
+  que los genotipos del estudio de origen fijan la hebra, y en 3 por anotacion
+  proteica que rompe una transversion ambigua. Provisional en 4: tres son
+  transversiones A/T o C/G donde la hebra no es verificable y solo concuerda la
+  frecuencia, que es evidencia indirecta (HMOX1 rs2071746, HMOX1 rs5995098 y
+  APOE rs440446), y el cuarto es VDR rs2228570, donde lo que se infiere no es
+  la hebra sino que el identificador bajo el que el estudio de origen reporta
+  FokI designe este mismo polimorfismo; dbSNP no registra una fusion entre
+  rs1073581 y rs2228570. Indeterminada en 1 (APOE rs449647). De los 23
+  resueltos, en 19 el alelo alterno es el menor del estudio de origen y en 4 el
+  mayor.
+
+  La direccion del efecto se reporta con su contexto completo: biomarcador de
+  exposicion, desenlace, modelo genetico y el resultado de la correccion por
+  tasa de descubrimientos falsos con su valor ajustado. Las razones son razones
+  de riesgos instantaneos (HR) de un modelo de Cox y expresan la asociacion
+  entre plomo oseo y cardiopatia coronaria por duplicacion del biomarcador
+  dentro de cada estrato genotipico, no el efecto de portar el alelo; cada fila
+  lo declara. Ninguna de las 24 interacciones alcanza el umbral del 5% tras la
+  correccion: cuatro quedan en un valor ajustado de 0.06.
+
+  El respaldo va en dos columnas separadas, una para el gen y otra para la
+  variante, porque no son lo mismo. Cada campo lleva su fuente.
+
+Tabla_S1_resultados_por_locus.tsv
+  Resultado principal por locus: conteos alelicos AC y numero de cromosomas AN
+  de los componentes indigena mexicano y europeo, frecuencias por componente,
+  frecuencia de apareamiento bajo las dos definiciones, indicador de inversion
+  del alelo mayoritario, FST de Hudson, numero de vecinos y bloques, distancia
+  de apareamiento alcanzada, percentil con intervalo de remuestreo, y percentil
+  bajo la definicion alternativa con la diferencia entre ambas.
+
+  Los conteos son fraccionarios porque provienen de inferencia de ancestria
+  local: cada cromosoma contribuye al conteo de un componente en proporcion a
+  su probabilidad de pertenecer a el. Las frecuencias se recalculan desde AC y
+  AN, y las menores de 1e-4 van en notacion cientifica: HFE rs1800562 tiene un
+  conteo estimado de 0.2 sobre 170,634 cromosomas en el componente indigena, es
+  decir 1.17e-6, que con cuatro decimales se imprimiria como cero.
+
+  El percentil lleva dos decimales para que la regla del umbral sea
+  verificable; el intervalo de remuestreo conserva el decimal del analisis
+  principal.
+
+Tabla_S2_sensibilidades.tsv
+  Sensibilidades en formato largo, un renglon por locus y escenario, 240 filas
+  en cuatro escenarios: la definicion alternativa de la frecuencia de
+  apareamiento, las tres versiones de frecuencia de MCPS (PLANA, UNREL, IBD),
+  la separacion de plataformas en tres estratos y los cinco subconjuntos de
+  genes control.
+
+Tabla_S2b_subconjuntos_control.tsv
+  Resumen por subconjunto de genes control: el conjunto completo de 219 genes,
+  los 74 del conjunto inicial y tres mitades aleatorias de 109 genes con
+  semilla declarada. Para cada uno, loci evaluables, loci en el percentil 95 o
+  superior, mediana, maximo y el percentil de AGT rs2493137. Los percentiles
+  llevan dos decimales porque AGT rs2493137 queda en 95.00 exacto en una de las
+  mitades: la regla declarada cuenta un locus en el extremo cuando su percentil
+  es mayor o igual que 95, aplicada sobre el valor sin redondear, y con un solo
+  decimal ese caso no seria verificable.
+
+Tabla_S3_rejilla_barrido.tsv
+  Rejilla completa del barrido: 54 comparaciones, de tres umbrales de percentil
+  (95.0, 97.5, 99.0), tres ventanas (25, 50, 100 kb), tres conjuntos de
+  variantes y dos estratos. Los tres conjuntos son el completo, el restringido
+  con el criterio asimetrico (frecuencia del alelo alterno por debajo de 0.02
+  en alguno de los componentes) y el restringido con el criterio simetrico
+  min(p, 1-p) < 0.02, que trata los dos alelos por igual.
+
+  En los conjuntos restringidos los percentiles se recalculan dentro del
+  conjunto, contra el fondo de control ya restringido, y no se hereda el corte
+  obtenido con todas las variantes. La diferencia no es menor: las variantes
+  poco frecuentes en un componente estan sobrerrepresentadas en la cola alta de
+  FST, de modo que al excluirlas se retira sobre todo lo que superaba el corte
+  original, y conservarlo haria que el umbral del percentil 99 dejara de
+  seleccionar el 1% superior del conjunto analizado. El conjunto completo no
+  cambia respecto de la version anterior de esta tabla: sus 18 filas coinciden
+  exactamente, que es la comprobacion de que el procedimiento es el mismo y
+  solo cambia donde debe cambiar.
+
+Tabla_S5_nula_apareada.tsv
+  Distribucion nula del numero de bloques atipicos en regiones control
+  apareadas con las candidatas por longitud, densidad de variantes comunes
+  evaluables y fraccion de variantes de genoma completo. Para cada conjunto de
+  variantes: bloques observados, media, mediana, intervalo del 95% y maximo de
+  la nula sobre 10,000 replicas, valor de p empirico, y el numero de genes que
+  necesitaron relajar las tolerancias.
+
+  Sustituye el denominador de la prueba binomial, que repartia los bloques
+  esperados por longitud de region y suponia que una megabase candidata y una
+  control ofrecen la misma oportunidad de generarlos. Iguala oportunidad, no
+  arquitectura: dos regiones con la misma longitud, densidad y plataforma
+  pueden diferir en recombinacion, estructura de haplotipos y regimen
+  selectivo.
+
+Tabla_S6_apareamiento_regiones.tsv
+  Calidad del apareamiento gen a gen: longitud, variantes evaluables, densidad
+  y fraccion de genoma completo de cada gen candidato, numero de comparadores
+  que reune, tolerancias aplicadas y mediana de longitud y densidad de esos
+  comparadores. Es lo que permite ver en que genes el fondo no daba de si.
+
+Tabla_S7_simulacion_fst.tsv
+  Simulacion del estimador de Hudson sobre conteos fraccionarios, con cohortes
+  sinteticas de parametros conocidos. Cinco escenarios de frecuencia, tres
+  tamanos de 2,000 a 280,000 cromosomas y tres exactitudes de asignacion de
+  ancestria. Para cada condicion: FST verdadero, estimado medio, sesgo, sesgo
+  relativo, desviacion estandar y AN medio.
+
+  Responde dos cosas. La correccion por tamano de muestra sigue siendo
+  practicamente insesgada cuando el denominador es una suma de probabilidades,
+  con un sesgo absoluto maximo de 0.0008. Y el error de asignacion atenua el
+  FST hacia cero en lugar de inflarlo, de modo que los valores reportados son
+  cotas inferiores.
+
+Tabla_S4_extension_bloques.tsv
+  Extension fisica de los bloques por conjunto, estrato, grupo y ventana:
+  numero de bloques, extension mediana, percentil 90 y maxima, y variantes por
+  bloque. Los bloques se cuentan dentro de cada estrato, igual que en S3, de
+  modo que el numero de bloques de cada combinacion coincide renglon por
+  renglon con el de la rejilla; el script lo comprueba antes de escribir.
+  Los bloques se construyen agrupando variantes consecutivas mientras la
+  distancia con la anterior no supere la ventana, de modo que el parametro es
+  la distancia maxima entre variantes vecinas y no el tamano del bloque: la
+  extension no esta acotada por la ventana y llega a 98.3 kb con una ventana de
+  50 kb.
+
+
+ARCHIVOS DE VERIFICACION
+
+verificacion/bloques_atipicos.tsv   variantes de los bloques atipicos en
+                                    regiones candidatas
+verificacion/genes_control.tsv      los 219 genes control con su justificacion
+                                    funcional
+verificacion/regiones.bed           coordenadas GRCh38 de las 228 regiones
+                                    analizadas
+verificacion/procedencia.txt        fechas de consulta y sumas SHA-256 de las
+                                    descargas
+verificacion/codigo/                el canal completo
+
+
+CODIGO
+
+Los scripts 01 a 21 cubren el canal desde las descargas hasta el analisis
+principal. Sobre ellos corren estos, que producen el material de este paquete:
+
+  22b_completar_suplementario.py  conteos AC y AN en S1, frecuencias
+                                  recalculadas desde AC y AN, escenarios y
+                                  subconjuntos en S2, percentil a dos decimales
+  23c_tabla1_orientacion.py       version completa de la Tabla 1; la curaduria
+                                  por variante esta en el propio script, en el
+                                  diccionario C, con la fuente de cada campo
+                                  declarada. Toma de S1 las frecuencias
+                                  recalculadas, de modo que las muy pequenas no
+                                  se imprimen como cero
+  24b_sensibilidad_simetrica.py   barrido bajo los tres conjuntos y extension
+                                  de bloques por estrato; importa 12_barrido.py
+                                  y comprueba que lo reproduce, y que sus dos
+                                  tablas dan el mismo numero de bloques, antes
+                                  de escribir
+  25c_tabla1_cuerpo.py            version de diez columnas de la Tabla 1
+  26_nula_apareada.py             nula de bloques en regiones apareadas
+                                  por longitud, densidad y plataforma;
+                                  importa 24b, que importa 12_barrido.py
+  28_reproduccion_independiente.py  recalcula las cifras principales desde
+                                  los datos crudos sin importar ninguno de
+                                  los scripts del canal, y las compara con
+                                  las tablas. Diecisiete cifras, sin
+                                  diferencias: frecuencias desde AC/AN, FST
+                                  de Hudson, los tres recuentos de
+                                  variantes, los bloques atipicos de los
+                                  tres conjuntos, la proporcion esperada,
+                                  la razon de tasas, la prueba binomial y
+                                  los percentiles del analisis dirigido
+  27_simulacion_fst.py            simulacion del estimador de Hudson sobre
+                                  conteos fraccionarios; no usa datos de MCPS
+  parche_14_figura3B.py           una sola vez: hace que el panel 3B lea la
+                                  rejilla corregida y dibuje los tres conjuntos
+
+El orden importa: 22b antes que 23c y que 25c, porque ambos toman de S1 las
+frecuencias recalculadas, y 23c antes que 25c, porque este lee su salida. MANIFIESTO_CODIGO.txt trae las versiones, las dependencias, el
+orden completo, las semillas y las entradas que no se redistribuyen.
+
+Los scripts con sufijo b sustituyen a los que llevan el mismo numero sin
+sufijo; estos ultimos quedaron obsoletos.
+
+
+DATOS QUE NO SE REDISTRIBUYEN
+
+Las frecuencias del Mexico City Prospective Study son de acceso publico en
+https://rgc-mcps.regeneron.com/ y no se incluyen aqui. Las coordenadas y la
+resolucion de identificadores rs provienen de gnomAD v4.1 por su API GraphQL.

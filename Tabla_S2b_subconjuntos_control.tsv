@@ -1,0 +1,6 @@
+subconjunto	n_genes	loci_evaluables	loci_percentil_95_o_mas	mediana	maximo	AGT_rs2493137
+completo	219	24	1	52.33	95.33	95.33
+mitad_1	109	23	1	58.67	98.0	98.0
+mitad_2	109	24	0	53.98	90.67	90.67
+mitad_3	109	23	2	62.0	96.39	95.0
+v1_74genes	74	18	1	61.55	99.33	99.33

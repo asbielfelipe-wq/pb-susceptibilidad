@@ -1,0 +1,17 @@
+PROCEDENCIA DE LOS DATOS
+========================================
+
+MCPS: archivos de frecuencias por cromosoma, version del 30 de
+enero de 2023, de https://rgc-mcps.regeneron.com/
+
+gnomAD v4.1: API GraphQL, conjunto gnomad_r4, GRCh38
+
+fecha_registro_utc: 2026-10-04T02:52:05Z
+fuente: https://ctdbase.org/reports
+
+archivo	bytes	sha256
+CTD_chem_gene_ixns.tsv.gz	43260596	0c069872aeebfd78fd6ca19e2d1d54d23dac41437694d27c113a3c54beae0f91
+CTD_chemicals_diseases.tsv.gz	162343480	e11e6dc36a27d36ed88576e529a92211186e3e0b3cea4271cc78dcf3d1b821ee
+CTD_genes_pathways.tsv.gz	1091988	81218e34e62ae79b548d68112923f00a3aa50b7d117b76161656be082d18330e
+CTD_chemicals.tsv.gz	10451244	2b8b4ae7667b7ff9ca8394a2d87c57a189909d0585a0ac1f3a0a39460a89fdea
+CTD_genes.tsv.gz	122773476	71ef2f8ae7b2cb803411e57d90ef0a46409eda71f0b3eb12c4529ae198eea6cc

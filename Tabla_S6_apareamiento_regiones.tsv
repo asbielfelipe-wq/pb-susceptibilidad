@@ -1,0 +1,10 @@
+gen_candidato	largo_kb	variantes_evaluables	densidad_por_kb	fraccion_wgs	comparadores	tolerancia_largo	tolerancia_densidad	tolerancia_fraccion_wgs	relajacion	mediana_largo_kb_comparadores	mediana_densidad_comparadores
+AGT	79.8	380	4.76	0.887	16	2.0	1.5	0.2	1	70.0	3.56
+AGTR1	70.2	194	2.76	0.933	37	1.5	1.25	0.1	0	69.9	2.73
+ALAD	40.0	162	4.05	0.79	6	1.5	1.25	0.1	0	32.7	4.04
+APOE	28.6	86	3.01	0.547	6	2.0	1.5	0.2	1	28.7	2.74
+GSTM1	46.2	100	2.16	0.79	28	1.5	1.25	0.1	0	44.5	2.18
+GSTP1	27.9	125	4.48	0.848	9	1.5	1.25	0.1	0	32.5	4.39
+HFE	36.1	106	2.94	0.896	27	1.5	1.25	0.1	0	43.9	2.74
+HMOX1	38.9	127	3.27	0.937	19	1.5	1.25	0.1	0	44.7	2.93
+VDR	126.5	368	2.91	0.853	11	1.5	1.25	0.1	0	102.7	2.93
