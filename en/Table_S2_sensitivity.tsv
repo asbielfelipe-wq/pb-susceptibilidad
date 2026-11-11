@@ -1,0 +1,241 @@
+scenario	condition	rsid	locus	percentile	CI95_lower	CI95_upper	n_neighbours	n_blocks	max_distance
+alternative definition of the matching frequency	high	rs699	AGT rs699	82.56	70.4	93.0	195	85.0	0.01999
+alternative definition of the matching frequency	high	rs1800435	ALAD rs1800435	81.67	74.8	87.7	300	123.0	0.01142
+alternative definition of the matching frequency	high	rs7975232	VDR rs7975232	79.37	65.8	92.4	126	56.0	0.01979
+alternative definition of the matching frequency	high	rs1695	GSTP1 rs1695	79.04	67.1	90.5	167	73.0	0.01987
+alternative definition of the matching frequency	high	rs2228570	VDR rs2228570	75.57	61.3	88.5	131	57.0	0.01992
+alternative definition of the matching frequency	high	rs405509	APOE rs405509	75.0	56.9	89.3	76	39.0	0.01937
+alternative definition of the matching frequency	high	rs440446	APOE rs440446	72.86	56.7	89.4	70	35.0	0.01986
+alternative definition of the matching frequency	high	rs1800562	HFE rs1800562	63.0	56.8	68.9	300	143.0	0.00245
+alternative definition of the matching frequency	high	rs7412	APOE rs7412	62.0	51.8	71.1	300	133.0	0.00497
+alternative definition of the matching frequency	high	rs1544410	VDR rs1544410	59.29	48.1	70.7	226	93.0	0.01998
+alternative definition of the matching frequency	high	rs1799945	HFE rs1799945	58.04	45.5	69.6	255	92.0	0.01983
+alternative definition of the matching frequency	high	rs731236	VDR rs731236	55.86	44.2	67.9	222	93.0	0.01996
+alternative definition of the matching frequency	high	rs12695908	AGTR1 rs12695908	53.0	46.6	59.5	300	138.0	0.00233
+alternative definition of the matching frequency	high	rs2071747	HMOX1 rs2071747	6.0	2.5	10.6	300	121.0	0.01033
+alternative definition of the matching frequency	high	rs429358	APOE rs429358	1.3	0.0	2.9	230	105.0	0.01996
+alternative definition of the matching frequency	wgs	rs2493137	AGT rs2493137	85.33	66.4	96.9	300	58.0	0.00288
+alternative definition of the matching frequency	wgs	rs2071749	HMOX1 rs2071749	70.67	43.8	87.4	300	50.0	0.00249
+alternative definition of the matching frequency	wgs	rs5995098	HMOX1 rs5995098	55.33	38.3	69.6	300	71.0	0.0038
+alternative definition of the matching frequency	wgs	rs2071746	HMOX1 rs2071746	47.67	29.4	67.2	300	69.0	0.00425
+alternative definition of the matching frequency	wgs	rs769446	APOE rs769446	29.67	10.5	62.4	300	65.0	0.00066
+alternative definition of the matching frequency	wgs	rs757343	VDR rs757343	26.33	10.3	46.6	300	58.0	0.00301
+alternative definition of the matching frequency	wgs	rs449647	APOE rs449647	17.33	3.1	37.7	300	60.0	0.00294
+alternative definition of the matching frequency	wgs	rs5050	AGT rs5050	11.67	3.6	23.8	300	69.0	0.00382
+alternative definition of the matching frequency	wgs	rs5046	AGT rs5046	6.67	2.0	14.1	300	88.0	0.00264
+frequency version	IBD	rs699	AGT rs699	97.0	-	-	-	-	-
+frequency version	IBD	rs2493137	AGT rs2493137	95.3	-	-	-	-	-
+frequency version	IBD	rs2071749	HMOX1 rs2071749	83.0	-	-	-	-	-
+frequency version	IBD	rs1800435	ALAD rs1800435	80.7	-	-	-	-	-
+frequency version	IBD	rs1544410	VDR rs1544410	78.7	-	-	-	-	-
+frequency version	IBD	rs731236	VDR rs731236	73.2	-	-	-	-	-
+frequency version	IBD	rs1800562	HFE rs1800562	66.3	-	-	-	-	-
+frequency version	IBD	rs1695	GSTP1 rs1695	62.7	-	-	-	-	-
+frequency version	IBD	rs7412	APOE rs7412	61.7	-	-	-	-	-
+frequency version	IBD	rs5046	AGT rs5046	6.7	-	-	-	-	-
+frequency version	IBD	rs2071747	HMOX1 rs2071747	6.0	-	-	-	-	-
+frequency version	IBD	rs5995098	HMOX1 rs5995098	58.7	-	-	-	-	-
+frequency version	IBD	rs1799945	HFE rs1799945	56.0	-	-	-	-	-
+frequency version	IBD	rs2228570	VDR rs2228570	53.1	-	-	-	-	-
+frequency version	IBD	rs7975232	VDR rs7975232	52.4	-	-	-	-	-
+frequency version	IBD	rs12695908	AGTR1 rs12695908	51.3	-	-	-	-	-
+frequency version	IBD	rs2071746	HMOX1 rs2071746	50.0	-	-	-	-	-
+frequency version	IBD	rs440446	APOE rs440446	42.1	-	-	-	-	-
+frequency version	IBD	rs405509	APOE rs405509	40.5	-	-	-	-	-
+frequency version	IBD	rs757343	VDR rs757343	36.3	-	-	-	-	-
+frequency version	IBD	rs769446	APOE rs769446	29.3	-	-	-	-	-
+frequency version	IBD	rs449647	APOE rs449647	22.7	-	-	-	-	-
+frequency version	IBD	rs5050	AGT rs5050	14.0	-	-	-	-	-
+frequency version	IBD	rs429358	APOE rs429358	0.9	-	-	-	-	-
+frequency version	PLANA	rs2493137	AGT rs2493137	95.3	-	-	-	-	-
+frequency version	PLANA	rs699	AGT rs699	94.8	-	-	-	-	-
+frequency version	PLANA	rs2071749	HMOX1 rs2071749	82.0	-	-	-	-	-
+frequency version	PLANA	rs1800435	ALAD rs1800435	81.7	-	-	-	-	-
+frequency version	PLANA	rs1544410	VDR rs1544410	76.6	-	-	-	-	-
+frequency version	PLANA	rs731236	VDR rs731236	72.9	-	-	-	-	-
+frequency version	PLANA	rs1800562	HFE rs1800562	63.0	-	-	-	-	-
+frequency version	PLANA	rs7412	APOE rs7412	62.0	-	-	-	-	-
+frequency version	PLANA	rs1799945	HFE rs1799945	61.2	-	-	-	-	-
+frequency version	PLANA	rs5995098	HMOX1 rs5995098	60.3	-	-	-	-	-
+frequency version	PLANA	rs5046	AGT rs5046	6.7	-	-	-	-	-
+frequency version	PLANA	rs2071747	HMOX1 rs2071747	6.0	-	-	-	-	-
+frequency version	PLANA	rs1695	GSTP1 rs1695	58.3	-	-	-	-	-
+frequency version	PLANA	rs12695908	AGTR1 rs12695908	53.0	-	-	-	-	-
+frequency version	PLANA	rs7975232	VDR rs7975232	51.7	-	-	-	-	-
+frequency version	PLANA	rs2071746	HMOX1 rs2071746	50.7	-	-	-	-	-
+frequency version	PLANA	rs2228570	VDR rs2228570	48.6	-	-	-	-	-
+frequency version	PLANA	rs440446	APOE rs440446	39.0	-	-	-	-	-
+frequency version	PLANA	rs405509	APOE rs405509	36.4	-	-	-	-	-
+frequency version	PLANA	rs757343	VDR rs757343	35.7	-	-	-	-	-
+frequency version	PLANA	rs769446	APOE rs769446	29.7	-	-	-	-	-
+frequency version	PLANA	rs449647	APOE rs449647	23.0	-	-	-	-	-
+frequency version	PLANA	rs5050	AGT rs5050	12.3	-	-	-	-	-
+frequency version	PLANA	rs429358	APOE rs429358	1.3	-	-	-	-	-
+frequency version	UNREL	rs699	AGT rs699	95.1	-	-	-	-	-
+frequency version	UNREL	rs2493137	AGT rs2493137	93.3	-	-	-	-	-
+frequency version	UNREL	rs1800435	ALAD rs1800435	79.3	-	-	-	-	-
+frequency version	UNREL	rs1544410	VDR rs1544410	77.9	-	-	-	-	-
+frequency version	UNREL	rs2071749	HMOX1 rs2071749	77.3	-	-	-	-	-
+frequency version	UNREL	rs731236	VDR rs731236	73.5	-	-	-	-	-
+frequency version	UNREL	rs1800562	HFE rs1800562	64.3	-	-	-	-	-
+frequency version	UNREL	rs7412	APOE rs7412	62.7	-	-	-	-	-
+frequency version	UNREL	rs2071746	HMOX1 rs2071746	60.0	-	-	-	-	-
+frequency version	UNREL	rs2071747	HMOX1 rs2071747	6.0	-	-	-	-	-
+frequency version	UNREL	rs1695	GSTP1 rs1695	58.9	-	-	-	-	-
+frequency version	UNREL	rs5995098	HMOX1 rs5995098	58.3	-	-	-	-	-
+frequency version	UNREL	rs1799945	HFE rs1799945	55.7	-	-	-	-	-
+frequency version	UNREL	rs12695908	AGTR1 rs12695908	54.3	-	-	-	-	-
+frequency version	UNREL	rs7975232	VDR rs7975232	49.3	-	-	-	-	-
+frequency version	UNREL	rs2228570	VDR rs2228570	46.5	-	-	-	-	-
+frequency version	UNREL	rs5046	AGT rs5046	4.7	-	-	-	-	-
+frequency version	UNREL	rs405509	APOE rs405509	38.0	-	-	-	-	-
+frequency version	UNREL	rs440446	APOE rs440446	37.9	-	-	-	-	-
+frequency version	UNREL	rs757343	VDR rs757343	27.0	-	-	-	-	-
+frequency version	UNREL	rs769446	APOE rs769446	25.3	-	-	-	-	-
+frequency version	UNREL	rs449647	APOE rs449647	17.0	-	-	-	-	-
+frequency version	UNREL	rs5050	AGT rs5050	10.3	-	-	-	-	-
+frequency version	UNREL	rs429358	APOE rs429358	0.0	-	-	-	-	-
+platforms separated	array	rs1800435	ALAD rs1800435	79.8	72.0	86.6	163.0	-	-
+platforms separated	array	rs7412	APOE rs7412	77.3	72.7	82.3	300.0	-	-
+platforms separated	array	rs1544410	VDR rs1544410	75.0	62.8	86.1	76.0	-	-
+platforms separated	array	rs731236	VDR rs731236	72.4	60.0	84.1	76.0	-	-
+platforms separated	array	rs1800562	HFE rs1800562	64.3	58.3	69.9	300.0	-	-
+platforms separated	array	rs7975232	VDR rs7975232	64.0	46.2	79.6	50.0	-	-
+platforms separated	array	rs1799945	HFE rs1799945	58.2	45.6	69.9	79.0	-	-
+platforms separated	array	rs12695908	AGTR1 rs12695908	57.3	51.7	62.8	300.0	-	-
+platforms separated	array	rs2228570	VDR rs2228570	48.4	31.6	69.4	62.0	-	-
+platforms separated	array	rs405509	APOE rs405509	42.3	24.6	65.2	52.0	-	-
+platforms separated	array	rs699	AGT rs699	-	-	-	46.0	-	-
+platforms separated	array	rs1695	GSTP1 rs1695	-	-	-	43.0	-	-
+platforms separated	wes	rs2071747	HMOX1 rs2071747	4.0	1.2	7.7	300.0	-	-
+platforms separated	wes	rs440446	APOE rs440446	37.6	22.1	54.0	85.0	-	-
+platforms separated	wes	rs429358	APOE rs429358	0.8	0.0	2.6	129.0	-	-
+platforms separated	wgs	rs2493137	AGT rs2493137	95.3	90.7	98.3	300.0	-	-
+platforms separated	wgs	rs2071749	HMOX1 rs2071749	82.0	63.0	91.1	300.0	-	-
+platforms separated	wgs	rs5995098	HMOX1 rs5995098	60.3	44.4	73.9	300.0	-	-
+platforms separated	wgs	rs5046	AGT rs5046	6.7	2.0	13.9	300.0	-	-
+platforms separated	wgs	rs2071746	HMOX1 rs2071746	50.7	29.7	75.2	300.0	-	-
+platforms separated	wgs	rs757343	VDR rs757343	35.7	16.8	56.8	300.0	-	-
+platforms separated	wgs	rs769446	APOE rs769446	29.7	10.2	61.7	300.0	-	-
+platforms separated	wgs	rs449647	APOE rs449647	23.0	6.5	42.3	300.0	-	-
+platforms separated	wgs	rs5050	AGT rs5050	12.3	3.4	25.4	300.0	-	-
+control gene subset	complete	rs2493137	AGT rs2493137	95.33			300	60.0	0.00587
+control gene subset	complete	rs699	AGT rs699	94.81			135	67.0	0.01993
+control gene subset	complete	rs2071749	HMOX1 rs2071749	82.0			300	53.0	0.00334
+control gene subset	complete	rs1800435	ALAD rs1800435	81.67			300	123.0	0.01142
+control gene subset	complete	rs1544410	VDR rs1544410	76.57			175	85.0	0.01998
+control gene subset	complete	rs731236	VDR rs731236	72.94			170	84.0	0.01996
+control gene subset	complete	rs1800562	HFE rs1800562	63.0			300	143.0	0.00245
+control gene subset	complete	rs7412	APOE rs7412	62.0			300	133.0	0.00497
+control gene subset	complete	rs1799945	HFE rs1799945	61.16			242	89.0	0.01983
+control gene subset	complete	rs5995098	HMOX1 rs5995098	60.33			300	75.0	0.00439
+control gene subset	complete	rs1695	GSTP1 rs1695	58.33			108	47.0	0.0195
+control gene subset	complete	rs12695908	AGTR1 rs12695908	53.0			300	138.0	0.00233
+control gene subset	complete	rs7975232	VDR rs7975232	51.66			151	57.0	0.01998
+control gene subset	complete	rs2071746	HMOX1 rs2071746	50.67			300	67.0	0.00439
+control gene subset	complete	rs2228570	VDR rs2228570	48.61			144	61.0	0.01991
+control gene subset	complete	rs440446	APOE rs440446	39.01			141	61.0	0.01986
+control gene subset	complete	rs405509	APOE rs405509	36.43			140	60.0	0.02
+control gene subset	complete	rs757343	VDR rs757343	35.67			300	63.0	0.00386
+control gene subset	complete	rs769446	APOE rs769446	29.67			300	65.0	0.00066
+control gene subset	complete	rs449647	APOE rs449647	23.0			300	65.0	0.00418
+control gene subset	complete	rs5050	AGT rs5050	12.33			300	69.0	0.00403
+control gene subset	complete	rs5046	AGT rs5046	6.67			300	88.0	0.00265
+control gene subset	complete	rs2071747	HMOX1 rs2071747	6.0			300	121.0	0.01033
+control gene subset	complete	rs429358	APOE rs429358	1.34			224	103.0	0.01996
+control gene subset	mitad_1	rs2493137	AGT rs2493137	98.0			300	39.0	0.00805
+control gene subset	mitad_1	rs699	AGT rs699	93.22			59	34.0	0.01976
+control gene subset	mitad_1	rs1800435	ALAD rs1800435	77.67			300	83.0	0.0199
+control gene subset	mitad_1	rs1544410	VDR rs1544410	77.27			88	45.0	0.01992
+control gene subset	mitad_1	rs731236	VDR rs731236	75.31			81	42.0	0.01994
+control gene subset	mitad_1	rs7412	APOE rs7412	74.0			300	89.0	0.00881
+control gene subset	mitad_1	rs2071749	HMOX1 rs2071749	67.33			300	43.0	0.006
+control gene subset	mitad_1	rs1799945	HFE rs1799945	66.95			118	41.0	0.01979
+control gene subset	mitad_1	rs5995098	HMOX1 rs5995098	66.67			300	46.0	0.00747
+control gene subset	mitad_1	rs1800562	HFE rs1800562	60.67			300	89.0	0.00486
+control gene subset	mitad_1	rs2228570	VDR rs2228570	59.32			59	31.0	0.01991
+control gene subset	mitad_1	rs2071746	HMOX1 rs2071746	58.67			300	39.0	0.00598
+control gene subset	mitad_1	rs7975232	VDR rs7975232	58.44			77	36.0	0.01998
+control gene subset	mitad_1	rs12695908	AGTR1 rs12695908	48.33			300	88.0	0.00548
+control gene subset	mitad_1	rs757343	VDR rs757343	45.0			300	42.0	0.00641
+control gene subset	mitad_1	rs440446	APOE rs440446	44.78			67	33.0	0.01986
+control gene subset	mitad_1	rs405509	APOE rs405509	41.89			74	34.0	0.02
+control gene subset	mitad_1	rs769446	APOE rs769446	33.0			300	48.0	0.00089
+control gene subset	mitad_1	rs449647	APOE rs449647	18.0			300	38.0	0.0055
+control gene subset	mitad_1	rs5050	AGT rs5050	10.33			300	52.0	0.00918
+control gene subset	mitad_1	rs5046	AGT rs5046	5.67			300	64.0	0.0046
+control gene subset	mitad_1	rs2071747	HMOX1 rs2071747	4.33			300	84.0	0.01962
+control gene subset	mitad_1	rs429358	APOE rs429358	0.88			114	54.0	0.01996
+control gene subset	mitad_1	rs1695	GSTP1 rs1695				41		
+control gene subset	mitad_2	rs2493137	AGT rs2493137	90.67			300	41.0	0.00971
+control gene subset	mitad_2	rs699	AGT rs699	88.71			62	34.0	0.01993
+control gene subset	mitad_2	rs1800435	ALAD rs1800435	80.49			246	83.0	0.02
+control gene subset	mitad_2	rs1544410	VDR rs1544410	70.27			74	43.0	0.01926
+control gene subset	mitad_2	rs731236	VDR rs731236	68.49			73	41.0	0.01992
+control gene subset	mitad_2	rs7412	APOE rs7412	67.67			300	90.0	0.00916
+control gene subset	mitad_2	rs1800562	HFE rs1800562	64.67			300	91.0	0.00499
+control gene subset	mitad_2	rs1799945	HFE rs1799945	61.29			124	48.0	0.01983
+control gene subset	mitad_2	rs2071746	HMOX1 rs2071746	58.67			300	42.0	0.00634
+control gene subset	mitad_2	rs1695	GSTP1 rs1695	56.92			65	29.0	0.0195
+control gene subset	mitad_2	rs5995098	HMOX1 rs5995098	56.33			300	45.0	0.00895
+control gene subset	mitad_2	rs2071749	HMOX1 rs2071749	55.33			300	42.0	0.00826
+control gene subset	mitad_2	rs7975232	VDR rs7975232	52.63			76	31.0	0.01977
+control gene subset	mitad_2	rs12695908	AGTR1 rs12695908	49.67			300	90.0	0.00588
+control gene subset	mitad_2	rs2228570	VDR rs2228570	47.06			85	35.0	0.01991
+control gene subset	mitad_2	rs757343	VDR rs757343	45.67			300	41.0	0.00671
+control gene subset	mitad_2	rs769446	APOE rs769446	38.33			300	49.0	0.00134
+control gene subset	mitad_2	rs405509	APOE rs405509	36.71			79	36.0	0.02
+control gene subset	mitad_2	rs440446	APOE rs440446	33.33			81	35.0	0.01977
+control gene subset	mitad_2	rs449647	APOE rs449647	16.33			300	44.0	0.0053
+control gene subset	mitad_2	rs2071747	HMOX1 rs2071747	6.86			277	80.0	0.01973
+control gene subset	mitad_2	rs5050	AGT rs5050	5.33			300	58.0	0.01092
+control gene subset	mitad_2	rs5046	AGT rs5046	4.0			300	65.0	0.00487
+control gene subset	mitad_2	rs429358	APOE rs429358	1.55			129	56.0	0.01959
+control gene subset	mitad_3	rs699	AGT rs699	96.39			83	38.0	0.01993
+control gene subset	mitad_3	rs2493137	AGT rs2493137	95.0			300	44.0	0.01151
+control gene subset	mitad_3	rs1544410	VDR rs1544410	82.0			100	46.0	0.01998
+control gene subset	mitad_3	rs1800435	ALAD rs1800435	79.63			270	77.0	0.01995
+control gene subset	mitad_3	rs731236	VDR rs731236	78.43			102	44.0	0.01996
+control gene subset	mitad_3	rs2071746	HMOX1 rs2071746	75.67			300	45.0	0.00893
+control gene subset	mitad_3	rs2228570	VDR rs2228570	73.58			53	25.0	0.0176
+control gene subset	mitad_3	rs7412	APOE rs7412	72.33			300	84.0	0.0091
+control gene subset	mitad_3	rs1799945	HFE rs1799945	68.64			118	43.0	0.0198
+control gene subset	mitad_3	rs2071749	HMOX1 rs2071749	67.0			300	43.0	0.00697
+control gene subset	mitad_3	rs5995098	HMOX1 rs5995098	63.0			300	43.0	0.00921
+control gene subset	mitad_3	rs1800562	HFE rs1800562	62.0			300	85.0	0.00469
+control gene subset	mitad_3	rs440446	APOE rs440446	53.23			62	28.0	0.01986
+control gene subset	mitad_3	rs7975232	VDR rs7975232	50.0			82	31.0	0.01998
+control gene subset	mitad_3	rs12695908	AGTR1 rs12695908	48.67			300	87.0	0.00525
+control gene subset	mitad_3	rs405509	APOE rs405509	44.78			67	29.0	0.01992
+control gene subset	mitad_3	rs757343	VDR rs757343	27.67			300	53.0	0.00848
+control gene subset	mitad_3	rs449647	APOE rs449647	20.67			300	44.0	0.00524
+control gene subset	mitad_3	rs769446	APOE rs769446	19.67			300	55.0	0.00147
+control gene subset	mitad_3	rs2071747	HMOX1 rs2071747	3.73			295	76.0	0.01986
+control gene subset	mitad_3	rs5046	AGT rs5046	3.33			300	58.0	0.00396
+control gene subset	mitad_3	rs429358	APOE rs429358	1.12			89	49.0	0.01996
+control gene subset	mitad_3	rs5050	AGT rs5050	0.67			300	48.0	0.00737
+control gene subset	mitad_3	rs1695	GSTP1 rs1695				38		
+control gene subset	v1_74genes	rs2493137	AGT rs2493137	99.33			300	32.0	0.01147
+control gene subset	v1_74genes	rs699	AGT rs699	94.34			53	21.0	0.01899
+control gene subset	v1_74genes	rs2071746	HMOX1 rs2071746	83.0			300	38.0	0.01297
+control gene subset	v1_74genes	rs2071749	HMOX1 rs2071749	79.0			300	36.0	0.01412
+control gene subset	v1_74genes	rs7412	APOE rs7412	75.0			300	65.0	0.0126
+control gene subset	v1_74genes	rs1800435	ALAD rs1800435	72.83			184	55.0	0.01997
+control gene subset	v1_74genes	rs5995098	HMOX1 rs5995098	70.0			300	47.0	0.012
+control gene subset	v1_74genes	rs757343	VDR rs757343	63.67			300	32.0	0.00675
+control gene subset	v1_74genes	rs769446	APOE rs769446	63.33			300	53.0	0.00259
+control gene subset	v1_74genes	rs1799945	HFE rs1799945	59.78			92	30.0	0.0198
+control gene subset	v1_74genes	rs7975232	VDR rs7975232	59.68			62	23.0	0.01911
+control gene subset	v1_74genes	rs1800562	HFE rs1800562	49.33			300	66.0	0.01599
+control gene subset	v1_74genes	rs12695908	AGTR1 rs12695908	37.0			300	66.0	0.01724
+control gene subset	v1_74genes	rs449647	APOE rs449647	24.0			300	36.0	0.01035
+control gene subset	v1_74genes	rs5050	AGT rs5050	16.33			300	44.0	0.01036
+control gene subset	v1_74genes	rs5046	AGT rs5046	12.67			300	47.0	0.00735
+control gene subset	v1_74genes	rs2071747	HMOX1 rs2071747	6.32			190	55.0	0.01996
+control gene subset	v1_74genes	rs429358	APOE rs429358	1.67			60	30.0	0.01968
+control gene subset	v1_74genes	rs1544410	VDR rs1544410				48		
+control gene subset	v1_74genes	rs731236	VDR rs731236				45		
+control gene subset	v1_74genes	rs1695	GSTP1 rs1695				32		
+control gene subset	v1_74genes	rs2228570	VDR rs2228570				43		
+control gene subset	v1_74genes	rs440446	APOE rs440446				33		
+control gene subset	v1_74genes	rs405509	APOE rs405509				35		

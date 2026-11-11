@@ -1,0 +1,4 @@
+set	percentile_threshold	window_kb	observed_candidate_blocks	null_mean	null_median	null_CI95	null_maximum	p_empirical	replicates	candidate_genes	genes_without_enough_comparators	max_relaxation	replicates_with_reuse
+complete	99.0	50	4	1.5	1.0	0-4	6	0.0387	10000	9	0	1	0
+restricted_asymmetric	99.0	50	3	1.48	1.0	0-4	6	0.1622	10000	9	0	1	0
+restricted_symmetric	99.0	50	2	1.74	2.0	0-4	6	0.5516	10000	9	0	1	0

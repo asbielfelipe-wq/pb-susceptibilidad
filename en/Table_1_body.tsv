@@ -1,0 +1,25 @@
+Gene	rsID	Position	REF>ALT	Name	Named allele	ALT in source study	Certainty	AF IMX	AF EUR
+AGT	rs2493137	1:230716370	T>C	promoter	-	minor	confirmed	0.8617	0.3314
+AGT	rs5046	1:230714652	G>A	promoter	-	minor	confirmed	0.0639	0.0971
+AGT	rs5050	1:230714140	T>G	promoter	-	minor	confirmed	0.2142	0.1784
+AGT	rs699	1:230710048	A>G	M268T	Thr268 (T235)	minor	confirmed	0.9245	0.4232
+AGTR1	rs12695908	3:148733125	C>T	intronic	-	minor	confirmed	1.82e-4	0.0278
+ALAD	rs1800435	9:113391611	C>G	ALAD1/ALAD2	ALAD2 (Asn59)	minor	confirmed	3.57e-4	0.0957
+APOE	rs405509	19:44905579	T>G	promoter	-	minor	confirmed	0.3784	0.5348
+APOE	rs429358	19:44908684	T>C	C130R	Arg130	minor	confirmed	0.0915	0.0953
+APOE	rs440446	19:44905910	C>G	intronic	-	major	provisional	0.4729	0.6059
+APOE	rs449647	19:44905307	A>T	promoter	-	undet.	undet.	0.2507	0.1852
+APOE	rs7412	19:44908822	C>T	R176C	Cys176	minor	confirmed	3.51e-4	0.0481
+APOE	rs769446	19:44905371	T>C	promoter	-	minor	confirmed	0.0016	0.0667
+GSTP1	rs1695	11:67585218	A>G	I105V	Val105 (I105V)	minor	confirmed	0.6993	0.3167
+HFE	rs1799945	6:26090951	C>G	H63D	Asp63 (H63D)	minor	confirmed	0.0388	0.2367
+HFE	rs1800562	6:26092913	G>A	C282Y	Tyr282 (C282Y)	minor	confirmed	1.17e-6	0.0304
+HMOX1	rs2071746	22:35380679	A>T	promoter	-	minor	provisional	0.144	0.3913
+HMOX1	rs2071747	22:35381192	G>C	D7H	His7 (D7H)	minor	confirmed	0.052	0.0366
+HMOX1	rs2071749	22:35387420	A>G	intronic	-	major	confirmed	0.2347	0.4693
+HMOX1	rs5995098	22:35391174	C>G	intronic	-	minor	provisional	0.0943	0.2722
+VDR	rs1544410	12:47846052	C>T	BsmI	-	minor	confirmed	0.0723	0.3941
+VDR	rs2228570	12:47879112	A>G	FokI	F allele	major	provisional	0.4031	0.6517
+VDR	rs731236	12:47844974	A>G	TaqI	-	minor	confirmed	0.0719	0.3887
+VDR	rs757343	12:47845892	C>T	Tru9I	-	minor	confirmed	0.2189	0.1316
+VDR	rs7975232	12:47845054	C>A	ApaI	-	major	confirmed	0.2854	0.5308
