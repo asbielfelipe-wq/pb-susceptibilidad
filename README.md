@@ -9,7 +9,31 @@ Mexico City Prospective Study, and evaluates whether the differentiation
 observed is exceptional against an empirical background of variants of
 comparable frequency in 219 control genes.
 
+## What this repository contains, and what it does not
+
+This repository holds the analysis code and the derived tables. It does not
+hold the input data: Mexico City Prospective Study frequencies are publicly
+available at the study site and are not redistributed here, as the provenance
+file records.
+
+The scripts expect to sit in the `scripts/` directory of a project tree built
+around them:
+
+    project/
+      scripts/              the files in verificacion/codigo of this repository
+      data/raw/             regiones.bed and the downloaded sources
+      data/processed/       mcps_frecuencias.tsv
+      results/suplementario/  the tables, which this repository already holds
+
+To run anything, copy `verificacion/codigo/*` into `scripts/` of such a tree
+and rebuild `data/` from the public sources, following
+`verificacion/codigo/MANIFIESTO_CODIGO.txt`, which declares the download URLs,
+the file versions, the SHA-256 checksums, the library versions, the execution
+order and the random seeds.
+
 ## Checking that the figures follow from the data
+
+Once that tree exists:
 
     python3 scripts/28_reproduccion_independiente.py
 
@@ -55,8 +79,12 @@ it, so the values reported are lower bounds.
 ## Structure
 
     LEEME.txt                        full index, table by table (Spanish)
-    Tabla_*.tsv                      tables as generated (Spanish headers)
-    en/                              the same tables with English headers
+    Tabla_*.tsv                      tables as the pipeline generates them,
+                                     with Spanish column names and values
+    en/                              the same tables with English column names
+                                     and values, produced by
+                                     verificacion/codigo/30_traducir_tablas.py;
+                                     no figure differs between the two
     verificacion/                    outlier blocks, control genes,
                                      regiones.bed and provenance with SHA-256
     verificacion/codigo/             the complete pipeline, with its manifest
