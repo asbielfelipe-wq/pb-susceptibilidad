@@ -35,6 +35,7 @@ ARCHIVOS = {
     "Tabla_S5_nula_apareada.tsv": "Table_S5_matched_null.tsv",
     "Tabla_S6_apareamiento_regiones.tsv": "Table_S6_region_matching.tsv",
     "Tabla_S7_simulacion_fst.tsv": "Table_S7_fst_simulation.tsv",
+    "Tabla_S8_calibracion_cola.tsv": "Table_S8_tail_calibration.tsv",
     "bloques_atipicos.tsv": "outlier_blocks.tsv",
 }
 
@@ -96,7 +97,12 @@ COLUMNAS = {
     "mediana_densidad_comparadores": "median_density_comparators",
     "p_indigena": "p_Indigenous", "p_europea": "p_European",
     "FST_verdadero": "true_FST", "FST_estimado_medio": "mean_estimated_FST",
-    "cromosomas": "chromosomes", "exactitud_asignacion": "assignment_accuracy",
+    "cromosomas": "chromosomes",
+    "exactitud_asignacion": "mean_posterior_to_true_ancestry",
+    "variantes": "variants", "FST_mediana": "FST_median",
+    "FST_p95": "FST_p95", "FST_p99": "FST_p99", "FST_p999": "FST_p999",
+    "FST_maxima": "FST_max",
+    "proporcion_sobre_p99_sin_error": "fraction_above_error_free_p99",
     "sesgo": "bias", "sesgo_relativo": "relative_bias",
     "desviacion_estandar": "standard_deviation",
     "AN_indigena_medio": "mean_AN_Indigenous",
