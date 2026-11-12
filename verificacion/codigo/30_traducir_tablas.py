@@ -84,6 +84,7 @@ COLUMNAS = {
     "nula_media": "null_mean", "nula_mediana": "null_median",
     "nula_IC95": "null_CI95", "nula_maxima": "null_maximum",
     "p_empirica": "p_empirical", "replicas": "replicates",
+    "genes_excluidos": "excluded_genes",
     "genes_candidatos": "candidate_genes",
     "genes_sin_comparadores_suficientes": "genes_without_enough_comparators",
     "relajacion_maxima": "max_relaxation", "relajacion": "relaxation",
@@ -113,7 +114,7 @@ COLUMNAS = {
 }
 
 VALORES = {
-    "si": "yes", "no": "no", "alta": "high", "wgs": "wgs", "WGS": "WGS",
+    "si": "yes", "no": "no", "ninguno": "none", "alta": "high", "wgs": "wgs", "WGS": "WGS",
     "candidato": "candidate", "control": "control", "completo": "complete",
     "restringido_asimetrico": "restricted_asymmetric",
     "restringido_simetrico": "restricted_symmetric",

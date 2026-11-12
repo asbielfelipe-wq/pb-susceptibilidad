@@ -1,4 +1,7 @@
-conjunto	umbral_percentil	ventana_kb	bloques_candidatos_observados	nula_media	nula_mediana	nula_IC95	nula_maxima	p_empirica	replicas	genes_candidatos	genes_sin_comparadores_suficientes	relajacion_maxima	replicas_con_reutilizacion
-completo	99.0	50	4	1.5	1.0	0-4	6	0.0387	10000	9	0	1	0
-restringido_asimetrico	99.0	50	3	1.48	1.0	0-4	6	0.1622	10000	9	0	1	0
-restringido_simetrico	99.0	50	2	1.74	2.0	0-4	6	0.5516	10000	9	0	1	0
+conjunto	genes_excluidos	umbral_percentil	ventana_kb	bloques_candidatos_observados	nula_media	nula_mediana	nula_IC95	nula_maxima	p_empirica	replicas	genes_candidatos	genes_sin_comparadores_suficientes	relajacion_maxima	replicas_con_reutilizacion
+completo	ninguno	99.0	50	4	1.5	1.0	0-4	6	0.0387	10000	9	0	1	0
+completo	AGT	99.0	50	3	1.3	1.0	0-3	5	0.113	10000	8	0	1	0
+restringido_asimetrico	ninguno	99.0	50	3	1.47	1.0	0-4	6	0.1584	10000	9	0	1	0
+restringido_asimetrico	AGT	99.0	50	2	1.19	1.0	0-3	6	0.3441	10000	8	0	1	0
+restringido_simetrico	ninguno	99.0	50	2	1.75	2.0	0-4	7	0.552	10000	9	0	1	0
+restringido_simetrico	AGT	99.0	50	1	1.41	1.0	0-4	6	0.7914	10000	8	0	1	0

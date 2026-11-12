@@ -1,8 +1,9 @@
 MATERIAL SUPLEMENTARIO
-Frecuencias alelicas por componente de ancestria de las variantes candidatas
-de susceptibilidad al plomo en el Mexico City Prospective Study
+Frecuencias alelicas por componente de ancestria de variantes propuestas
+previamente como marcadores de susceptibilidad al plomo en el Mexico City
+Prospective Study
 
-Actualizado el 14 de octubre de 2026
+Actualizado el 10 de noviembre de 2026
 
 
 EN EL CUERPO DEL ARTICULO
@@ -116,8 +117,9 @@ Tabla_S5_nula_apareada.tsv
   apareadas con las candidatas por longitud, densidad de variantes comunes
   evaluables y fraccion de variantes de genoma completo. Para cada conjunto de
   variantes: bloques observados, media, mediana, intervalo del 95% y maximo de
-  la nula sobre 10,000 replicas, valor de p empirico, y el numero de genes que
-  necesitaron relajar las tolerancias.
+  la nula sobre 10,000 replicas, valor de p empirico, el numero de genes que
+  necesitaron relajar las tolerancias y la columna genes_excluidos, que
+  distingue las dos corridas de cada conjunto.
 
   Sustituye el denominador de la prueba binomial, que repartia los bloques
   esperados por longitud de region y suponia que una megabase candidata y una
@@ -125,6 +127,12 @@ Tabla_S5_nula_apareada.tsv
   arquitectura: dos regiones con la misma longitud, densidad y plataforma
   pueden diferir en recombinacion, estructura de haplotipos y regimen
   selectivo.
+
+  Cada conjunto aparece dos veces. Una con los nueve genes candidatos y otra
+  sin el peor apareado de ellos, retirado a la vez del conjunto candidato y del
+  apareamiento, porque ese gen aporta uno de los bloques observados y conviene
+  saber si el resultado depende de un solo emparejamiento deficiente. Depende:
+  el valor nominal del conjunto completo no sobrevive a esa exclusion.
 
 Tabla_S6_apareamiento_regiones.tsv
   Calidad del apareamiento gen a gen: longitud, variantes evaluables, densidad
@@ -142,8 +150,23 @@ Tabla_S7_simulacion_fst.tsv
   Responde dos cosas. La correccion por tamano de muestra sigue siendo
   practicamente insesgada cuando el denominador es una suma de probabilidades,
   con un sesgo absoluto maximo de 0.0008. Y el error de asignacion atenua el
-  FST hacia cero en lugar de inflarlo, de modo que los valores reportados son
-  cotas inferiores.
+  FST hacia cero en lugar de inflarlo bajo los esquemas simulados, que son
+  simetricos entre componentes e independientes entre variantes. Lo que no
+  cubre es un error correlacionado a lo largo de un haplotipo ni asimetrico
+  entre componentes, de modo que los valores no se presentan como cotas.
+
+Tabla_S8_calibracion_cola.tsv
+  Calibracion de la cola alta de la distribucion nula de FST bajo error de
+  asignacion, que es lo que usa el umbral de percentil y lo que la Tabla S7 no
+  responde al mirar solo la media. Variantes sin diferenciacion verdadera, dos
+  tamanos de muestra y tres exactitudes de asignacion. Para cada condicion:
+  mediana, percentiles 95, 99 y 99.9, maxima y proporcion de variantes que
+  superan el percentil 99 de la asignacion perfecta.
+
+  El percentil 99 con error de asignacion no supera al de la asignacion
+  perfecta en ninguno de los dos tamanos: el error comprime la cola igual que
+  comprime la media, y el umbral no selecciona variantes por ruido de
+  asignacion.
 
 Tabla_S4_extension_bloques.tsv
   Extension fisica de los bloques por conjunto, estrato, grupo y ventana:

@@ -73,6 +73,10 @@ script declara sus entradas y salidas en su docstring.
   26_nula_apareada.py         distribucion nula de bloques en regiones
                               apareadas por longitud, densidad y plataforma;
                               importa 24b, que a su vez importa el 12
+  26b_nula_apareada.py        la misma nula con dos corridas por conjunto
+                              de variantes, con los nueve genes candidatos
+                              y sin el peor apareado de ellos; sustituye al
+                              26 y es el que produce la Tabla S5
   27_simulacion_fst.py        simulacion del estimador de Hudson sobre conteos
                               fraccionarios; no usa datos de MCPS
   parche_14_figura3B.py       unica vez: hace que el panel 3B lea la rejilla
@@ -114,6 +118,7 @@ SEMILLAS
   20_sensibilidades_v2.py         20261006   remuestreo y subconjuntos
   22b_completar_suplementario.py  20261006   remuestreo y subconjuntos
   26_nula_apareada.py             20261110   muestreo de regiones apareadas
+  26b_nula_apareada.py            20261110   muestreo de regiones apareadas
   27_simulacion_fst.py            20261110   cohortes simuladas
 
 Los scripts 23c, 24b y 25c no usan numeros aleatorios.
