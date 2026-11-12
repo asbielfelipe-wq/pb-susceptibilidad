@@ -79,6 +79,16 @@ script declara sus entradas y salidas en su docstring.
                               26 y es el que produce la Tabla S5
   27_simulacion_fst.py        simulacion del estimador de Hudson sobre conteos
                               fraccionarios; no usa datos de MCPS
+  28_reproduccion_independiente.py
+                              reimplementa desde cero lo que describen los
+                              Metodos, sin importar ningun script de la
+                              tuberia, y compara cada cifra con la publicada
+  30_traducir_tablas.py       traduce encabezados y valores de las tablas al
+                              ingles y avisa de cualquier cadena espanola que
+                              quede sin traducir
+  31_calibracion_cola.py      calibracion de la cola alta de la nula de FST
+                              bajo error de asignacion, que es lo que usa el
+                              umbral de percentil
   parche_14_figura3B.py       unica vez: hace que el panel 3B lea la rejilla
                               corregida y dibuje los tres conjuntos
   armar_docx.py               manuscrito.md -> Word
@@ -120,8 +130,9 @@ SEMILLAS
   26_nula_apareada.py             20261110   muestreo de regiones apareadas
   26b_nula_apareada.py            20261110   muestreo de regiones apareadas
   27_simulacion_fst.py            20261110   cohortes simuladas
+  31_calibracion_cola.py          20261111   variantes sin diferenciacion
 
-Los scripts 23c, 24b y 25c no usan numeros aleatorios.
+Los scripts 23c, 24b, 25c, 28 y 30 no usan numeros aleatorios.
 
 Con la misma semilla y las mismas entradas, las salidas son identicas.
 
