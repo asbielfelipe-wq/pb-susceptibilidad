@@ -39,7 +39,7 @@ Tabla_1_orientacion_alelica.tsv
   frecuencia, que es evidencia indirecta (HMOX1 rs2071746, HMOX1 rs5995098 y
   APOE rs440446), y el cuarto es VDR rs2228570, donde lo que se infiere no es
   la hebra sino que el identificador bajo el que el estudio de origen reporta
-  FokI designe este mismo polimorfismo; dbSNP no registra una fusion entre
+  FokI designe esta misma variante de un solo nucleotido; dbSNP no registra una fusion entre
   rs1073581 y rs2228570. Indeterminada en 1 (APOE rs449647). De los 23
   resueltos, en 19 el alelo alterno es el menor del estudio de origen y en 4 el
   mayor.
