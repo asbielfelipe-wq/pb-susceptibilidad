@@ -1,4 +1,4 @@
-# Ancestry-component allele frequencies of variants previously proposed as markers of lead susceptibility in the Mexico City Prospective Study
+# Transferability of candidate lead-susceptibility markers to the ancestry components of an admixed Mexican cohort
 
 Analysis code and supplementary material for the manuscript.
 
